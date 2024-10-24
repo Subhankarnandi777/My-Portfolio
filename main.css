@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    display: block;
+    margin: auto;
+    border: 5px solid black;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* navigation bar */
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+header h1{
+    margin-bottom: 10px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+nav ul a:hover {
+    color: #555;
+}
+
+/* Section Styles */
+section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1,h2 {
+    margin-bottom: 10px;
+    border-bottom: 2px solid #444;
+    color: #333;
+    text-align: center;
+}
+
+p,
+ul {
+    margin-bottom: 15px;
+}
+
+#home{
+    background: color #e0f7fa;
+}
+#about{
+    background-color: #fffde7;
+}
+#education{
+    background-color: #e8f5e9;
+}
+#experience{
+    background-color: #fff3e0;
+}
+#publications,#awards,#projects,#membership,#research,#events,#presentations,#courses,#contact{
+    background-color: #eceff1;
+}
+
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
